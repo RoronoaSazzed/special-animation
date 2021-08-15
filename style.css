@@ -147,7 +147,6 @@ button {
 
 .smolText {
   opacity: 0;
-  color: white;
 }
 
 .arrowBodyRight {
@@ -483,6 +482,8 @@ button {
   width: 350px;
 }
 
+/* Bottom Layer */
+
 /* C-5 */
 
 #text22 {
@@ -634,4 +635,578 @@ button {
 #a9 {
   top: 55%;
   left: -8%;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .parentSection h3 {
+    font-size: 24px;
+  }
+
+  .circle {
+    height: 275px;
+    width: 275px;
+  }
+  .midLayer {
+    margin-top: -105px;
+  }
+
+  .cThree {
+    margin: 75px -55px -50px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .circle {
+    height: 275px;
+    width: 275px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .parentSection h3 {
+    font-size: 14px;
+  }
+
+  .circle {
+    height: 150px;
+    width: 150px;
+  }
+
+  .cOne,
+  .cTwo,
+  .cThree,
+  .cFour,
+  .cFive,
+  .cSix {
+    background-size: 60px;
+  }
+
+  .smolText {
+    font-size: 12px;
+  }
+
+  .midLayer {
+    margin-top: -50px;
+    margin-bottom: 0px;
+  }
+
+  .cThree {
+    margin: 35px -35px -40px;
+  }
+
+  /* Top Layer */
+
+  /* C-1 */
+
+  #text1 {
+    top: 65%;
+    left: 20%;
+  }
+
+  .mFirstCTop {
+    width: 75px;
+  }
+
+  #a35 .mFirstCBottom,
+  #a37 .mFirstCBottom {
+    width: 120px;
+  }
+
+  #a33 {
+    top: 35%;
+    left: 85%;
+  }
+
+  #a34 {
+    top: 35%;
+    right: 85%;
+  }
+
+  #a35 {
+    top: 80%;
+    left: 60%;
+  }
+
+  #a37 {
+    top: 80%;
+    right: 60%;
+  }
+
+  #a36 {
+    top: 85%;
+    left: 45%;
+  }
+
+  /* C-2 */
+
+  .mTwo30 {
+    width: 100px;
+  }
+
+  #a26 .mTwo26 {
+    width: 160px;
+  }
+
+  #a27 .mTwo27 {
+    width: 150px;
+  }
+
+  #a31 .mTwo31 {
+    width: 150px;
+  }
+
+  #a32 .mTwo32 {
+    width: 150px;
+  }
+
+  #text2 {
+    top: -35%;
+    left: 15%;
+  }
+
+  #text3 {
+    top: -30%;
+    left: 165%;
+  }
+
+  #text4 {
+    top: 5%;
+    left: 100%;
+  }
+
+  #text5 {
+    top: 30%;
+    left: 80%;
+  }
+
+  #text6 {
+    top: 70%;
+    left: 50%;
+  }
+
+  #text7 {
+    top: 100%;
+    left: 120%;
+  }
+
+  #text8 {
+    top: 120%;
+    left: 20%;
+  }
+
+  #a26 {
+    top: 95%;
+    left: 65%;
+  }
+
+  #a27 {
+    top: 85%;
+    left: 75%;
+  }
+
+  #a28 {
+    top: 60%;
+    left: 80%;
+  }
+
+  #a29 {
+    top: 40%;
+    left: 80%;
+  }
+
+  #a30 {
+    top: -25%;
+    left: 35%;
+  }
+
+  #a31 {
+    top: 5%;
+    left: 75%;
+  }
+
+  #a32 {
+    top: -5%;
+    left: 76%;
+  }
+
+  /* C-3 */
+
+  .mThreeC {
+    width: 40px;
+  }
+
+  .mThreeCBottom {
+    width: 15px;
+  }
+
+  #text9 {
+    top: -17%;
+    left: 17%;
+  }
+
+  #text10 {
+    top: 5%;
+    left: -5%;
+  }
+
+  #text11 {
+    top: 50%;
+    left: -30%;
+  }
+
+  #text12 {
+    top: 5%;
+    right: -5%;
+  }
+
+  #text13 {
+    top: 50%;
+    right: -30%;
+  }
+
+  #text14 {
+    top: 100%;
+    left: 32%;
+  }
+
+  #a38 {
+    top: 75%;
+    right: 0%;
+  }
+
+  #a39 {
+    top: 85%;
+    right: 12%;
+  }
+
+  #a40 {
+    top: 75%;
+    left: 0%;
+  }
+
+  #a41 {
+    top: 85%;
+    left: 12%;
+  }
+
+  #a42 {
+    top: 40%;
+    left: -5%;
+  }
+
+  #a43 {
+    top: 20%;
+    left: -5%;
+  }
+
+  #a44 {
+    top: 0%;
+    left: 45%;
+  }
+
+  #a45 {
+    top: 40%;
+    right: -5%;
+  }
+
+  #a46 {
+    top: 20%;
+    right: -5%;
+  }
+
+  /* C-4 */
+
+  .mFour1819 {
+    width: 30px;
+  }
+
+  .mFour21 {
+    width: 75px;
+  }
+
+  #a25 .mFour25 {
+    width: 170px;
+  }
+
+  #a24 .mFour24 {
+    width: 170px;
+  }
+
+  #a22 .mFour2223,
+  #a23 .mFour2223 {
+    width: 170px;
+  }
+
+  #text15 {
+    top: 30%;
+    left: 0%;
+  }
+
+  #text16 {
+    top: 70%;
+    left: 0%;
+  }
+
+  #text17 {
+    top: -20%;
+    right: 150%;
+  }
+
+  #text18 {
+    top: -20%;
+    left: 30%;
+  }
+
+  #text19 {
+    top: 120%;
+    left: 15%;
+  }
+
+  #text20 {
+    top: 105%;
+    left: -70%;
+  }
+
+  #text21 {
+    top: 17%;
+    left: -62%;
+  }
+
+  #a17 {
+    top: 60%;
+    left: 0%;
+  }
+
+  #a18 {
+    top: 90%;
+    left: 38%;
+  }
+
+  #a19 {
+    top: 92%;
+    left: 50%;
+  }
+
+  #a20 {
+    top: 45%;
+    left: 0%;
+  }
+
+  #a21 {
+    top: -20%;
+    left: 0%;
+  }
+
+  #a22 {
+    top: 90%;
+    left: -80%;
+  }
+
+  #a23 {
+    top: 80%;
+    left: -80%;
+  }
+
+  #a24 {
+    top: 5%;
+    left: -85%;
+  }
+
+  #a25 {
+    top: -5%;
+    left: -85%;
+  }
+
+  /* Bottom Layer */
+
+  /* C-5 */
+
+  #a10 .mFive10 {
+    width: 100px;
+  }
+
+  #a13 .mFive1314,
+  #a14 .mFive1314 {
+    width: 50px;
+  }
+
+  #a15 .mFive1516,
+  #a16 .mFive1516 {
+    width: 30px;
+  }
+
+  #a11 .mFive11 {
+    width: 180px;
+  }
+
+  #a12 .mFive12 {
+    width: 170px;
+  }
+
+  #text22 {
+    top: -10%;
+    left: -20%;
+  }
+
+  #text23 {
+    top: -13%;
+    left: 35%;
+  }
+
+  #text24 {
+    top: 5%;
+    right: -60%;
+  }
+
+  #text25 {
+    top: 65%;
+    right: -40%;
+  }
+
+  #a10 {
+    top: -90%;
+    left: 20%;
+  }
+
+  #a11 {
+    top: -30%;
+    left: 60%;
+  }
+
+  #a12 {
+    top: -15%;
+    left: 60%;
+  }
+
+  #a13 {
+    top: 62%;
+    right: -17%;
+  }
+
+  #a14 {
+    top: 49%;
+    right: -15%;
+  }
+
+  #a15 {
+    top: 0%;
+    left: 70%;
+  }
+
+  #a16 {
+    top: -5%;
+    left: 60%;
+  }
+
+  /* C-6 */
+
+  #a1 .mSix1 {
+    width: 100px;
+  }
+
+  #a2 .mSix23,
+  #a3 .mSix23 {
+    width: 30px;
+  }
+
+  #a4 .mSix4 {
+    width: 40px;
+  }
+
+  #a5 .mSix5 {
+    width: 35px;
+  }
+
+  #a6 .mSix6 {
+    width: 150px;
+  }
+
+  #a7 .mSix7 {
+    width: 170px;
+  }
+
+  #text26 {
+    top: 10%;
+    right: 155%;
+  }
+
+  #text27 {
+    top: 85%;
+    left: -15%;
+  }
+
+  #text28 {
+    top: 20%;
+    left: 70%;
+  }
+
+  #text29 {
+    top: -20%;
+    left: 40%;
+  }
+
+  #text30 {
+    top: 5%;
+    left: -55%;
+  }
+
+  #a1 {
+    top: -90%;
+    left: -5%;
+  }
+
+  #a2 {
+    top: 5%;
+    left: 20%;
+  }
+
+  #a3 {
+    top: 0%;
+    left: 30%;
+  }
+
+  #a4 {
+    top: -10%;
+    left: 75%;
+  }
+
+  #a5 {
+    top: -10%;
+    left: 65%;
+  }
+
+  #a6 {
+    top: -5%;
+    left: -70%;
+  }
+
+  #a7 {
+    top: -20%;
+    left: -80%;
+  }
+
+  #a8 {
+    top: 45%;
+    left: -10%;
+  }
+
+  #a9 {
+    top: 55%;
+    left: -8%;
+  }
 }
