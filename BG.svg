@@ -1,0 +1,19 @@
+<svg width="1920" height="1002" viewBox="0 0 1920 1002" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="BG" clip-path="url(#clip0)">
+<g id="SVG BG">
+<rect id="Rectangle 1" y="-4" width="1920" height="1004" fill="white"/>
+<rect id="Rectangle 2" y="-2" width="1920" height="1004" fill="url(#paint0_linear)"/>
+<circle id="Ellipse 2" cx="960" cy="498" r="640" fill="#01C7FD" fill-opacity="0.27"/>
+<circle id="Ellipse 1" cx="960" cy="500" r="450" fill="#01C7FD" fill-opacity="0.21"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="-202" y1="-97.4999" x2="2322" y2="1104" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0F439A"/>
+<stop offset="1" stop-color="#00D7FF"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="1920" height="1002" fill="white"/>
+</clipPath>
+</defs>
+</svg>
